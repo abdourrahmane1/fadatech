@@ -1,0 +1,33 @@
+@font-face { font-family: awesome;
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js");
+}
+
+/*media queries pour le signin*/
+
+@media screen and (max-width:420px) { 
+    #re{
+    display: none;
+}
+    #card-sign{
+ 	margin-top: 5px;
+ 	margin: 0 auto;
+     max-width: 300px;
+     max-height: 330px;
+    padding: 5px 20px;
+	background: green;
+	    color: #FFF;
+    text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+max-width: 220px;
+min-height: 170px;
+}
+.boite-voile{
+    height: 430px;
+    width: auto;
+ }
+ .image-voile{
+     height: 430px;
+ }
+}
